@@ -1,0 +1,639 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="1pDtObjRL-o5Nl3VMmjs">
+    <mxGraphModel dx="6178" dy="5130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-56" parent="1" style="line;strokeWidth=2;direction=south;html=1;rounded=0;strokeColor=#36393d;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;fillColor=#cdeb8b;" value="" vertex="1">
+          <mxGeometry height="1060" width="140" x="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-110" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cce5ff;align=center;verticalAlign=middle;rounded=1;strokeWidth=3;perimeterSpacing=9;roundedPerimeter=1;shadow=1;fontFamily=Comic Sans MS;" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;Sequence diagram Manage Time usecase [Employee]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="160" width="950" x="-620" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-112" parent="1" style="line;strokeWidth=2;direction=south;html=1;rounded=0;strokeColor=#36393d;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;fillColor=#cdeb8b;" value="" vertex="1">
+          <mxGeometry height="1480" width="140" x="1170" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-125" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cce5ff;align=center;verticalAlign=middle;rounded=1;strokeWidth=3;perimeterSpacing=9;roundedPerimeter=1;shadow=1;fontSize=16;" value="&lt;font style=&quot;font-size: 52px;&quot;&gt;TASK [1]&amp;nbsp;&lt;br&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="200" width="565" x="975" y="-1160" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-131" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#36393d;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;fillColor=#cdeb8b;gradientColor=none;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;1-Problem definition :&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; Workers can work on muliple project and with multiple managers as a result managers and workers need&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; a way to manage and keep track of the vacation time of wokers and themselves also.&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; In the past, all vacation time had to be approved by an immediate manager and then checked by a clerk in the HR department before it was authorized.&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; Sometimes this manual process could take days.&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;2-Vision :&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; A Vacation Tracking System (VTS) will provide individual employees with the&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; capability to manage their own vacation time, sick leave, and personal time off,&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; without having to be an expert in company policy or the local facility’s leave&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; policies.&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; The main goal of this application is to improve the internal business processes of&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; this organization, at least with respect to the time it takes to manage vacation time&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; requests.&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; An automated system will speed up this process and will require at most one manual approval by the immediate manager (some high-level employees may not require manager approval).&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="720" width="1170" x="-680" y="-860" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-132" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#36393d;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;fillColor=#cdeb8b;gradientColor=none;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;3-Actors :&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; 1-Employee: The main user of this system. An employee uses this system to&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; manage his or her vacation time.&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; 2-Manager: An employee who has all the abilities and goals of a regular&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; employee, but with the added responsibility of approving vacation requests&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; for immediate subordinates. A manager may award subordinates comp&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; time, subject to certain limits set in the system.&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; 3-Clerk: A member of the HR department who has sufficient rights to view&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; employees’ personal data and is responsible for ensuring that employees’&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; information in all HR systems is up to date and correct. An HR clerk can&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; add or remove nearly any record in the system. In the real world, HR clerks&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; may or may not be employees; however, if they are employees, they use two&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; separate login IDs to manage these two different roles.&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; 4-System Admin: A role responsible for the smooth running of the system’s technical resources (e.g., Web server, database) and for collecting and&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; archiving all log files&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="720" width="950" x="600" y="-860" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-133" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#36393d;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;fillColor=#cdeb8b;gradientColor=none;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;4-Requirements :&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; 4.1-Funtional requirements&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - The system allow all kind of employees to validate and verfiy leave/vacation time requests&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - Allow managers to approve/disappove the leave/vacation time requests&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - Provides access to requests for the previous calendar year, and allows requests to be made up to a year and a half in the future&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - Send e-mail notification to request manager approval and notify employees of request status changes&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - Keeps activity logs for all transactions&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - Enables the HR and system administration personnel to override all actions restricted by rules, with logging of those overrides&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - Allows managers to directly award personal leave time (with system-set limits)&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - Provides a Web service interface for other internal systems to query any given employee’s vacation request summary&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - Provides Interfaces with the HR department legacy systems to retrieve required employee information and changes&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; 4.2-Non-Functional requirements :&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - The system should be easy to use for all kind of actors&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; 4.3-Contsrains&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - Uses existing hardware and middleware&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - Is implemented as an extension to the existing intranet portal system, and uses the portal’s single-sign-on mechanisms for all authentication&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - the system should be built as Web-centric application&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="850" width="1540" x="1680" y="-910" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-134" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="860" width="1140" x="-290" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-26" edge="1" parent="eJ9iBsKxBpa-CTFYAeDR-134" source="eJ9iBsKxBpa-CTFYAeDR-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#cdeb8b;strokeColor=#36393d;curved=0;strokeWidth=3;fontSize=16;align=left;textShadow=0;labelBorderColor=none;spacing=8;fontStyle=0;fontFamily=Comic Sans MS;" target="eJ9iBsKxBpa-CTFYAeDR-24" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="365" />
+              <mxPoint x="500" y="365" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-18" parent="eJ9iBsKxBpa-CTFYAeDR-134" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=0;fontSize=16;fontStyle=0;strokeWidth=3;resizeParent=0;resizeLast=1;shadow=1;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;glass=0;gradientColor=none;textShadow=0;labelBorderColor=none;spacing=8;fontFamily=Comic Sans MS;labelBackgroundColor=none;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Employee&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="190" width="290" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-19" parent="eJ9iBsKxBpa-CTFYAeDR-18" style="align=left;strokeColor=#36393d;fillColor=#cdeb8b;spacingLeft=4;spacingRight=4;fontSize=16;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;strokeWidth=3;textShadow=0;labelBorderColor=none;spacing=8;fontStyle=0;fontFamily=Comic Sans MS;rounded=0;" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;id : int (Pk)&lt;br&gt;vacation_balance : Float&lt;br&gt;manager_id : int (FK)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="290" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-29" edge="1" parent="eJ9iBsKxBpa-CTFYAeDR-134" source="eJ9iBsKxBpa-CTFYAeDR-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;align=left;textShadow=0;labelBorderColor=none;spacing=8;fontStyle=0;fontFamily=Comic Sans MS;fontColor=default;verticalAlign=middle;labelBackgroundColor=default;strokeColor=#36393d;strokeWidth=3;endArrow=classic;curved=0;fillColor=#cdeb8b;" target="eJ9iBsKxBpa-CTFYAeDR-27" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="720" />
+              <mxPoint x="860" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-24" parent="eJ9iBsKxBpa-CTFYAeDR-134" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=16;fontStyle=0;strokeWidth=3;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;textShadow=0;labelBorderColor=none;spacing=8;fontFamily=Comic Sans MS;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;vacation requests&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="340" width="540" x="600" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-25" parent="eJ9iBsKxBpa-CTFYAeDR-24" style="align=left;strokeColor=#36393d;fillColor=#cdeb8b;spacingLeft=4;spacingRight=4;fontSize=16;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;strokeWidth=3;textShadow=0;labelBorderColor=none;spacing=8;fontStyle=0;fontFamily=Comic Sans MS;" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;id : int (pk)&lt;br&gt;employee_id : int&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;(FK)&lt;/span&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;br&gt;category_id : int (FK)&lt;br&gt;from : datetime&lt;br&gt;to : datetime&lt;br&gt;status : enum (pending,approved,disapproved)&lt;br&gt;title : var(100)&lt;br&gt;description : var(300)&lt;br&gt;manager_id: int (FK)&lt;br&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;deducted_balance : float&lt;/font&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="290" width="540" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-27" parent="eJ9iBsKxBpa-CTFYAeDR-134" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=16;fontStyle=0;strokeWidth=3;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=left;arcSize=4;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;textShadow=0;labelBorderColor=none;spacing=8;fontFamily=Comic Sans MS;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;vacation category&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="120" width="280" x="730" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-28" parent="eJ9iBsKxBpa-CTFYAeDR-27" style="align=left;strokeColor=#36393d;fillColor=#cdeb8b;spacingLeft=4;spacingRight=4;fontSize=16;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;strokeWidth=3;textShadow=0;labelBorderColor=none;spacing=8;fontStyle=0;fontFamily=Comic Sans MS;" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;id : int (pk)&lt;br&gt;name : var(200)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="280" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-30" parent="eJ9iBsKxBpa-CTFYAeDR-134" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=16;textShadow=0;labelBorderColor=none;spacing=8;fontStyle=0;fontFamily=Comic Sans MS;" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="30" x="300" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-31" parent="eJ9iBsKxBpa-CTFYAeDR-134" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=16;textShadow=0;labelBorderColor=none;spacing=8;fontStyle=0;fontFamily=Comic Sans MS;" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;M&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="560" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-33" parent="eJ9iBsKxBpa-CTFYAeDR-134" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=16;textShadow=0;labelBorderColor=none;spacing=8;fontStyle=0;fontFamily=Comic Sans MS;" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="40" x="890" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-34" parent="eJ9iBsKxBpa-CTFYAeDR-134" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=16;textShadow=0;labelBorderColor=none;spacing=8;fontStyle=0;fontFamily=Comic Sans MS;" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;M&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="880" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cce5ff;align=center;verticalAlign=middle;rounded=1;strokeWidth=3;perimeterSpacing=9;roundedPerimeter=1;shadow=1;" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;ERD :&lt;br&gt;&amp;nbsp;Manage Time usecase&lt;/font&gt;" vertex="1">
+          <mxGeometry height="130" width="527" x="193" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cce5ff;align=center;verticalAlign=middle;rounded=1;strokeWidth=3;perimeterSpacing=9;roundedPerimeter=1;shadow=1;fontFamily=Comic Sans MS;" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;Flowcharts :&lt;br&gt;&amp;nbsp;Manage Time usecase&lt;/font&gt;" vertex="1">
+          <mxGeometry height="130" width="527" x="1926.5" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-57" parent="1" style="line;strokeWidth=2;direction=south;html=1;rounded=0;strokeColor=#36393d;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;fillColor=#cdeb8b;" value="" vertex="1">
+          <mxGeometry height="810" width="140" x="2470" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-62" edge="1" parent="1" source="eJ9iBsKxBpa-CTFYAeDR-58" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;endArrow=classic;fillColor=#cdeb8b;" target="eJ9iBsKxBpa-CTFYAeDR-61" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-58" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cce5ff;align=center;verticalAlign=middle;rounded=1;strokeWidth=3;perimeterSpacing=9;roundedPerimeter=1;shadow=1;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Employee&lt;/font&gt;" vertex="1">
+          <mxGeometry height="65" width="190" x="1600" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-64" edge="1" parent="1" source="eJ9iBsKxBpa-CTFYAeDR-61" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=14;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;endArrow=classic;fillColor=#cdeb8b;" target="eJ9iBsKxBpa-CTFYAeDR-63" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-61" parent="1" style="whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;gradientColor=none;rounded=1;strokeWidth=3;roundedPerimeter=1;shadow=1;fontFamily=Comic Sans MS;fontSize=14;" value="login using the legacy system gate" vertex="1">
+          <mxGeometry height="60" width="120" x="1635" y="352.5" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-66" edge="1" parent="1" source="eJ9iBsKxBpa-CTFYAeDR-63" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=14;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;endArrow=classic;fillColor=#cdeb8b;" target="eJ9iBsKxBpa-CTFYAeDR-65" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-63" parent="1" style="whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;gradientColor=none;rounded=1;strokeWidth=3;roundedPerimeter=1;shadow=1;fontFamily=Comic Sans MS;fontSize=14;" value="show vacation requests in the VTS screen" vertex="1">
+          <mxGeometry height="60" width="120" x="1635" y="492.5" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-76" edge="1" parent="1" source="eJ9iBsKxBpa-CTFYAeDR-65" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=14;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;endArrow=classic;fillColor=#cdeb8b;" target="eJ9iBsKxBpa-CTFYAeDR-74" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-65" parent="1" style="whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;gradientColor=none;rounded=1;strokeWidth=3;roundedPerimeter=1;shadow=1;fontFamily=Comic Sans MS;fontSize=14;" value="request a vacation&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="1635" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-70" edge="1" parent="1" source="eJ9iBsKxBpa-CTFYAeDR-67" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=14;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;endArrow=classic;fillColor=#cdeb8b;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" x="0.1624" as="geometry">
+            <Array as="points">
+              <mxPoint x="1721" y="936.5" />
+              <mxPoint x="1721" y="1033.5" />
+            </Array>
+            <mxPoint x="1721" y="970.0044660940671" as="sourcePoint" />
+            <mxPoint x="1879.1099999999997" y="1033.54" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-72" edge="1" parent="1" source="eJ9iBsKxBpa-CTFYAeDR-67" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=14;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;endArrow=classic;fillColor=#cdeb8b;" target="eJ9iBsKxBpa-CTFYAeDR-71" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-67" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#cce5ff;strokeColor=#36393d;gradientColor=none;rounded=1;strokeWidth=3;roundedPerimeter=1;shadow=1;fontFamily=Comic Sans MS;fontSize=14;" value="is valid ?" vertex="1">
+          <mxGeometry height="80" width="80" x="1690" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-99" edge="1" parent="1" source="eJ9iBsKxBpa-CTFYAeDR-69" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=14;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;endArrow=classic;fillColor=#cdeb8b;" target="eJ9iBsKxBpa-CTFYAeDR-98" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-69" parent="1" style="whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;gradientColor=none;rounded=1;strokeWidth=3;roundedPerimeter=1;shadow=1;fontFamily=Comic Sans MS;fontSize=14;" value="create the request" vertex="1">
+          <mxGeometry height="60" width="120" x="1879.11" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-71" parent="1" style="whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;gradientColor=none;rounded=1;strokeWidth=3;roundedPerimeter=1;shadow=1;fontFamily=Comic Sans MS;" value="show errors on&amp;nbsp; vts screen" vertex="1">
+          <mxGeometry height="60" width="120" x="1440" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-78" edge="1" parent="1" source="eJ9iBsKxBpa-CTFYAeDR-74" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=14;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;endArrow=classic;fillColor=#cdeb8b;" target="eJ9iBsKxBpa-CTFYAeDR-67" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-74" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rounded=1;shadow=1;strokeColor=#36393d;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=14;fontColor=default;fillColor=#cce5ff;gradientColor=none;roundedPerimeter=1;" value="Enter request data (From , To , Title, category, descrption)" vertex="1">
+          <mxGeometry height="60" width="190" x="1635" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-79" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=14;" value="yes" vertex="1">
+          <mxGeometry height="30" width="60" x="1765" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-80" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=14;" value="no" vertex="1">
+          <mxGeometry height="30" width="60" x="1620" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-98" parent="1" style="whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;gradientColor=none;rounded=1;strokeWidth=3;roundedPerimeter=1;shadow=1;fontFamily=Comic Sans MS;fontSize=14;" value="send email notiffication to the manager and employee" vertex="1">
+          <mxGeometry height="70" width="165" x="2107.5" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-120" edge="1" parent="1" source="eJ9iBsKxBpa-CTFYAeDR-63" style="endArrow=classic;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=0;fillColor=#cdeb8b;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.009;entryY=0.392;entryDx=0;entryDy=0;entryPerimeter=0;" target="eJ9iBsKxBpa-CTFYAeDR-121" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2030" y="570" as="sourcePoint" />
+            <mxPoint x="1880" y="522.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-121" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fillColor=#cdeb8b;strokeColor=#36393d;" value="&lt;div style=&quot;line-height: 90%;&quot;&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 90%;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;line-height: 90%;&quot;&gt;getVacationRequests(employee_id:int):ListVactiionRequests{&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal; line-height: 90%;&quot;&gt;vacation_requests&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal; line-height: 90%;&quot;&gt;&amp;nbsp; =&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal; line-height: 90%;&quot;&gt;getVacationRequest(employee_id)&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 90%;&quot;&gt;&lt;font style=&quot;line-height: 90%;&quot; size=&quot;3&quot;&gt;return vacation_requests ;&lt;br&gt;}&lt;/font&gt;&lt;/h1&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="450" x="1930" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-122" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fillColor=#cdeb8b;strokeColor=#36393d;" value="&lt;div style=&quot;line-height: 90%;&quot;&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 21.6px;&quot;&gt;&lt;font style=&quot;line-height: 10.8px; font-size: 14px;&quot;&gt;CreateVacationRequests(employee_id ,vacationRequestData ) {&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; padding: 0px;&quot;&gt;&lt;div style=&quot;line-height: 90%;&quot;&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 21.6px;&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;font style=&quot;line-height: 10.8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-weight: normal;&quot;&gt;is_valid= &lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-weight: normal;&quot;&gt;valdiateVacationRequest(&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; font-weight: normal;&quot;&gt;employee_id&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-weight: normal;&quot;&gt; ,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-weight: normal;&quot;&gt;vacationRequestData&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-weight: normal;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-weight: normal;&quot;&gt;)&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 90%;&quot;&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 21.6px;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-weight: normal;&quot;&gt;&lt;font size=&quot;3&quot;&gt;if(!is_valid){return badRequest}&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 21.6px;&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;deducted_balance = vacationRequestDate.&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; font-weight: normal; font-size: medium; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;deductedBalance&lt;br&gt;new_employee_balance = old_employee_balance -&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 400; font-size: medium; background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;deducted_balance&lt;/span&gt;&lt;span style=&quot;font-weight: 400; font-size: medium; background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 21.6px;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-weight: normal; font-size: medium; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;try:&lt;br&gt;start TX:&lt;br&gt;updated_employee_balance_in_db(&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: medium; font-weight: normal; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;new_employee_balance&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: medium; font-weight: normal; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: medium; font-weight: normal;&quot;&gt;)&lt;br&gt;&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 21.6px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal; font-size: medium;&quot;&gt;createdRequestData&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal; font-size: medium;&quot;&gt;&amp;nbsp; =&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: medium; font-weight: normal;&quot;&gt;save_vacation request_in_db(&lt;/span&gt;&lt;span style=&quot;font-size: medium; background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal;&quot;&gt;vacationRequestData)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400; font-size: medium; background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;commit TX&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400; font-size: medium; background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;catch(error): rollback TX and throw server error 500&lt;br&gt;&lt;/span&gt;&lt;font size=&quot;3&quot; style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal;&quot;&gt;result =&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal; font-size: medium;&quot;&gt;createdRequestData&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal; font-size: medium;&quot;&gt;&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: medium; font-weight: normal;&quot;&gt;async sendVacationRequestEmail(manager_id)&lt;br&gt;&lt;/span&gt;&lt;font size=&quot;3&quot; style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;return&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: 400; font-size: medium;&quot;&gt;result&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: 400; font-size: medium;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal; font-size: medium;&quot;&gt;}&lt;/span&gt;&lt;/h1&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div style=&quot;line-height: 90%;&quot;&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 21.6px;&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;ValdiateVacationRequest&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-weight: normal;&quot;&gt;(employee_id ,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal;&quot;&gt;vacationRequestData&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-weight: normal; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;) {&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; employee_balance = getEmployeeBalance(&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal;&quot;&gt;employee_id&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal;&quot;&gt;)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;if Employee_balance &amp;lt; vacationRequestData.deductedBalance &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;or&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal;&quot;&gt;vacationRequestDate.from &amp;gt;=&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal;&quot;&gt;vacationRequestDate.to&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;or vacationRequestDate.vacationCategory === null or undefine&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;or&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;date_is_already_used(employee,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-weight: normal; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;vacationRequestDate&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal;&quot;&gt;.from,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-weight: normal; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;vacationRequestDate.&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal;&quot;&gt;to)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;return false&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;else : return true&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 90%;&quot;&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 21.6px;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-weight: normal; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;font size=&quot;3&quot;&gt;}&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 12px; font-weight: normal; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;/span&gt;&lt;/h1&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="670" width="642.5" x="1882.5" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-92" parent="1" style="whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;gradientColor=none;rounded=1;strokeWidth=3;roundedPerimeter=1;shadow=1;fontSize=14;align=center;labelBorderColor=none;textShadow=0;fontFamily=Comic Sans MS;" value="update the request status (approved)" vertex="1">
+          <mxGeometry height="50" width="155" x="3210" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-89" edge="1" parent="1" source="eJ9iBsKxBpa-CTFYAeDR-91" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#36393d;strokeWidth=3;align=center;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=14;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;endArrow=classic;fillColor=#cdeb8b;textShadow=0;" target="eJ9iBsKxBpa-CTFYAeDR-92" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-81" edge="1" parent="1" source="eJ9iBsKxBpa-CTFYAeDR-82" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;endArrow=classic;fillColor=#cdeb8b;" target="eJ9iBsKxBpa-CTFYAeDR-84" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-82" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cce5ff;align=center;verticalAlign=middle;rounded=1;strokeWidth=3;perimeterSpacing=9;roundedPerimeter=1;shadow=1;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Manager&lt;/font&gt;" vertex="1">
+          <mxGeometry height="65" width="190" x="2820" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-83" edge="1" parent="1" source="eJ9iBsKxBpa-CTFYAeDR-84" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#36393d;strokeWidth=3;align=center;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=14;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;endArrow=classic;fillColor=#cdeb8b;textShadow=0;" target="eJ9iBsKxBpa-CTFYAeDR-86" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-84" parent="1" style="whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;gradientColor=none;rounded=1;strokeWidth=3;roundedPerimeter=1;shadow=1;fontSize=14;align=center;labelBorderColor=none;textShadow=0;fontFamily=Comic Sans MS;" value="login using the legacy system gate" vertex="1">
+          <mxGeometry height="60" width="120" x="2855" y="392.5" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-100" edge="1" parent="1" source="eJ9iBsKxBpa-CTFYAeDR-86" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#36393d;strokeWidth=3;align=center;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=14;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;endArrow=classic;fillColor=#cdeb8b;textShadow=0;" target="eJ9iBsKxBpa-CTFYAeDR-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-86" parent="1" style="whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;gradientColor=none;rounded=1;strokeWidth=3;roundedPerimeter=1;shadow=1;fontSize=14;align=center;labelBorderColor=none;textShadow=0;fontFamily=Comic Sans MS;" value="Show Employee vacation requests in the VTS screen" vertex="1">
+          <mxGeometry height="70" width="155" x="2855" y="532.5" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-90" edge="1" parent="1" source="eJ9iBsKxBpa-CTFYAeDR-91" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#36393d;strokeWidth=3;align=center;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=14;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;endArrow=classic;fillColor=#cdeb8b;textShadow=0;" target="eJ9iBsKxBpa-CTFYAeDR-93" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-91" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#cce5ff;strokeColor=#36393d;gradientColor=none;rounded=1;strokeWidth=3;roundedPerimeter=1;shadow=1;fontSize=14;align=center;labelBorderColor=none;textShadow=0;fontFamily=Comic Sans MS;" value="is approved&amp;nbsp;" vertex="1">
+          <mxGeometry height="90" width="105" x="2870" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-93" parent="1" style="whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;gradientColor=none;rounded=1;strokeWidth=3;roundedPerimeter=1;shadow=1;fontSize=14;align=center;labelBorderColor=none;textShadow=0;fontFamily=Comic Sans MS;" value="send rejection email to the employee" vertex="1">
+          <mxGeometry height="60" width="120" x="2590" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-96" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;labelBorderColor=none;textShadow=0;fontFamily=Comic Sans MS;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="3040" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-128" edge="1" parent="1" source="eJ9iBsKxBpa-CTFYAeDR-97" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;endArrow=classic;fillColor=#cdeb8b;" target="eJ9iBsKxBpa-CTFYAeDR-104" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-97" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;labelBorderColor=none;textShadow=0;fontFamily=Comic Sans MS;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="2760" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-102" parent="1" style="whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;gradientColor=none;rounded=1;strokeWidth=3;roundedPerimeter=1;shadow=1;fontSize=14;align=center;labelBorderColor=none;textShadow=0;fontFamily=Comic Sans MS;" value="send approving email to the employee" vertex="1">
+          <mxGeometry height="60" width="120" x="3060" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-104" parent="1" style="whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;gradientColor=none;rounded=1;strokeWidth=3;roundedPerimeter=1;shadow=1;fontSize=14;align=center;labelBorderColor=none;textShadow=0;fontFamily=Comic Sans MS;" value="update the request status (disapproved)" vertex="1">
+          <mxGeometry height="70" width="180" x="2760" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-109" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#36393d;strokeWidth=3;align=center;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=14;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;endArrow=classic;fillColor=#cdeb8b;textShadow=0;" value="">
+          <mxGeometry relative="1" x="0.725" as="geometry">
+            <Array as="points">
+              <mxPoint x="3120" y="745" />
+              <mxPoint x="3120" y="745" />
+            </Array>
+            <mxPoint x="3120" y="745" as="sourcePoint" />
+            <mxPoint x="3120" y="825" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-146" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cce5ff;align=center;verticalAlign=middle;rounded=1;strokeWidth=3;perimeterSpacing=9;roundedPerimeter=1;shadow=1;fontFamily=Comic Sans MS;" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;Sequence diagram Manage Time usecase [Manager]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="160" width="950" x="1940" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-196" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="140" width="410" x="350" y="2440" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-197" connectable="0" parent="eJ9iBsKxBpa-CTFYAeDR-196" style="group" value="" vertex="1">
+          <mxGeometry height="105" width="410" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-198" edge="1" parent="eJ9iBsKxBpa-CTFYAeDR-197" style="endArrow=classic;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=0;fillColor=#cdeb8b;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.4308" as="geometry">
+            <Array as="points">
+              <mxPoint x="189.23076923076923" y="96.25" />
+            </Array>
+            <mxPoint y="96.25" as="sourcePoint" />
+            <mxPoint x="410.00000000000006" y="96.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-199" parent="eJ9iBsKxBpa-CTFYAeDR-196" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=top;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;gradientColor=none;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;send vacation request email to the manager&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="270" x="80" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-142" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=0;strokeColor=#36393d;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;fillColor=#cdeb8b;gradientColor=none;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Employee&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="160" width="140" x="-1100" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-145" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=0;strokeColor=#36393d;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;fillColor=#cdeb8b;gradientColor=none;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Manager&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="160" width="140" x="700" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-147" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;fillColor=#cdeb8b;gradientColor=none;spacingTop=35;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Main Portal&lt;/font&gt;" vertex="1">
+          <mxGeometry height="130" width="280" x="-780" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-150" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;fillColor=#cdeb8b;gradientColor=none;spacingTop=35;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;VTS&lt;/font&gt;" vertex="1">
+          <mxGeometry height="130" width="280" x="-260" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-151" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;fillColor=#cdeb8b;gradientColor=none;spacingTop=35;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Email service&lt;/font&gt;" vertex="1">
+          <mxGeometry height="130" width="280" x="220" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-152" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=0;fillColor=#cdeb8b;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1040" y="2680" as="sourcePoint" />
+            <mxPoint x="-1040" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-153" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=0;fillColor=#cdeb8b;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="eJ9iBsKxBpa-CTFYAeDR-147" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-640" y="2680" as="sourcePoint" />
+            <mxPoint x="-640" y="1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-154" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=0;fillColor=#cdeb8b;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="eJ9iBsKxBpa-CTFYAeDR-150" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-120" y="2660" as="sourcePoint" />
+            <mxPoint x="-120" y="1490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-155" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=0;fillColor=#cdeb8b;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="2640" as="sourcePoint" />
+            <mxPoint x="350" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-156" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=0;fillColor=#cdeb8b;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="765" y="2640" as="sourcePoint" />
+            <mxPoint x="765" y="1490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-157" edge="1" parent="1" style="endArrow=classic;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=0;fillColor=#cdeb8b;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.4308" as="geometry">
+            <Array as="points">
+              <mxPoint x="-860" y="1605" />
+            </Array>
+            <mxPoint x="-1040" y="1605" as="sourcePoint" />
+            <mxPoint x="-650" y="1605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-158" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=top;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;gradientColor=none;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Login&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="-920" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-171" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="390" x="-1040" y="1740" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-166" edge="1" parent="eJ9iBsKxBpa-CTFYAeDR-171" style="endArrow=classic;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=1;fillColor=#cdeb8b;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="60" as="sourcePoint" />
+            <mxPoint y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-168" parent="eJ9iBsKxBpa-CTFYAeDR-171" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=top;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;gradientColor=none;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Token&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="130" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-172" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="900" x="-1040" y="1950" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-173" edge="1" parent="eJ9iBsKxBpa-CTFYAeDR-172" style="endArrow=classic;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=1;fillColor=#cdeb8b;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="900" y="60" as="sourcePoint" />
+            <mxPoint y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-174" parent="eJ9iBsKxBpa-CTFYAeDR-172" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=top;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;gradientColor=none;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;vacation requests list&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="330" x="270" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-175" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="55" width="920" x="-1040" y="1850" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-169" edge="1" parent="eJ9iBsKxBpa-CTFYAeDR-175" style="endArrow=classic;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=0;fillColor=#cdeb8b;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.4308" as="geometry">
+            <Array as="points">
+              <mxPoint x="424.61538461538464" y="55" />
+            </Array>
+            <mxPoint y="55" as="sourcePoint" />
+            <mxPoint x="920" y="55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-170" parent="eJ9iBsKxBpa-CTFYAeDR-175" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=top;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;gradientColor=none;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Get vacation requests&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="330" x="270" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-176" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="55" width="910" x="-1030" y="2050" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-177" edge="1" parent="eJ9iBsKxBpa-CTFYAeDR-176" style="endArrow=classic;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=0;fillColor=#cdeb8b;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.4308" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="55" />
+            </Array>
+            <mxPoint y="55" as="sourcePoint" />
+            <mxPoint x="910.0000000000001" y="55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-178" parent="eJ9iBsKxBpa-CTFYAeDR-176" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=top;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;gradientColor=none;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Request a vacation&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="330" x="260" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-179" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="270" x="-660" y="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-159" parent="eJ9iBsKxBpa-CTFYAeDR-179" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;fillColor=#cdeb8b;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="90" width="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-165" parent="eJ9iBsKxBpa-CTFYAeDR-179" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=top;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;gradientColor=none;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Authenntication&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="175" x="95" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-164" edge="1" parent="eJ9iBsKxBpa-CTFYAeDR-179" source="eJ9iBsKxBpa-CTFYAeDR-159" style="curved=1;curveGeometry=1;endArrow=classic;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;fillColor=#cdeb8b;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="eJ9iBsKxBpa-CTFYAeDR-159" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.4681" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="10" />
+              <mxPoint x="80" y="60" />
+            </Array>
+            <mxPoint x="290" y="120" as="sourcePoint" />
+            <mxPoint x="50" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-180" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="450" x="-140" y="2150" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-181" parent="eJ9iBsKxBpa-CTFYAeDR-180" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;fillColor=#cdeb8b;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="90" width="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-182" parent="eJ9iBsKxBpa-CTFYAeDR-180" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=top;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;gradientColor=none;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Validate vacation request data&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="355" x="95" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-183" edge="1" parent="eJ9iBsKxBpa-CTFYAeDR-180" source="eJ9iBsKxBpa-CTFYAeDR-181" style="curved=1;curveGeometry=1;endArrow=classic;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;fillColor=#cdeb8b;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="eJ9iBsKxBpa-CTFYAeDR-181" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.4681" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="10" />
+              <mxPoint x="80" y="60" />
+            </Array>
+            <mxPoint x="290" y="120" as="sourcePoint" />
+            <mxPoint x="50" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-185" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="910" x="-1030" y="2350" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-186" edge="1" parent="eJ9iBsKxBpa-CTFYAeDR-185" style="endArrow=classic;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=1;fillColor=#cdeb8b;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="910" y="60" as="sourcePoint" />
+            <mxPoint y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-187" parent="eJ9iBsKxBpa-CTFYAeDR-185" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=top;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;gradientColor=none;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Success or failure&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="336.52" x="270" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-195" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="480" x="-130" y="2440" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-190" connectable="0" parent="eJ9iBsKxBpa-CTFYAeDR-195" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="480" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-191" edge="1" parent="eJ9iBsKxBpa-CTFYAeDR-190" style="endArrow=classic;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=0;fillColor=#cdeb8b;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.4308" as="geometry">
+            <Array as="points">
+              <mxPoint x="221.53846153846155" y="55" />
+            </Array>
+            <mxPoint y="55" as="sourcePoint" />
+            <mxPoint x="480.0000000000001" y="55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-192" parent="eJ9iBsKxBpa-CTFYAeDR-195" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=top;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;gradientColor=none;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;send vacation request email to the manager&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="270" x="105" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="Odj5fwbDvh_Fd8c4yflA-5" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="450" x="-140" y="2270" as="geometry" />
+        </mxCell>
+        <mxCell id="Odj5fwbDvh_Fd8c4yflA-6" parent="Odj5fwbDvh_Fd8c4yflA-5" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;fillColor=#cdeb8b;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="90" width="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Odj5fwbDvh_Fd8c4yflA-8" edge="1" parent="Odj5fwbDvh_Fd8c4yflA-5" source="Odj5fwbDvh_Fd8c4yflA-6" style="curved=1;curveGeometry=1;endArrow=classic;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;fillColor=#cdeb8b;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="Odj5fwbDvh_Fd8c4yflA-6" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.4681" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="10" />
+              <mxPoint x="80" y="60" />
+            </Array>
+            <mxPoint x="290" y="120" as="sourcePoint" />
+            <mxPoint x="50" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Odj5fwbDvh_Fd8c4yflA-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=top;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;gradientColor=none;" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;create record and update employee balance in db on sucess&lt;/span&gt;" vertex="1">
+          <mxGeometry height="105" width="355" x="-50" y="2255" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-244" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=0;strokeColor=#36393d;align=center;fontFamily=Helvetica;fontSize=15;fontColor=default;labelBackgroundColor=none;fillColor=#cdeb8b;gradientColor=none;fontStyle=1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Manager&lt;/font&gt;" vertex="1">
+          <mxGeometry height="160" width="140" x="1270" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-245" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=0;strokeColor=#36393d;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;fillColor=#cdeb8b;gradientColor=none;fontStyle=1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Employee&lt;/font&gt;" vertex="1">
+          <mxGeometry height="160" width="140" x="3070" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-246" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;fillColor=#cdeb8b;gradientColor=none;spacingTop=35;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Main Portal&lt;/font&gt;" vertex="1">
+          <mxGeometry height="130" width="280" x="1590" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-247" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;fillColor=#cdeb8b;gradientColor=none;spacingTop=35;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;VTS&lt;/font&gt;" vertex="1">
+          <mxGeometry height="130" width="280" x="2110" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-248" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;fillColor=#cdeb8b;gradientColor=none;spacingTop=35;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Email service&lt;/font&gt;" vertex="1">
+          <mxGeometry height="130" width="280" x="2590" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-249" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=0;fillColor=#cdeb8b;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1330" y="2630" as="sourcePoint" />
+            <mxPoint x="1330" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-250" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=0;fillColor=#cdeb8b;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="eJ9iBsKxBpa-CTFYAeDR-246" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1730" y="2630" as="sourcePoint" />
+            <mxPoint x="1730" y="1550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-251" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=0;fillColor=#cdeb8b;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="eJ9iBsKxBpa-CTFYAeDR-247" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2260" y="2640" as="sourcePoint" />
+            <mxPoint x="2250" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-252" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=0;fillColor=#cdeb8b;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2720" y="2640" as="sourcePoint" />
+            <mxPoint x="2720" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-253" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=0;fillColor=#cdeb8b;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3130" y="2650" as="sourcePoint" />
+            <mxPoint x="3135" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-254" edge="1" parent="1" style="endArrow=classic;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=0;fillColor=#cdeb8b;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.4308" as="geometry">
+            <Array as="points">
+              <mxPoint x="1510" y="1615" />
+            </Array>
+            <mxPoint x="1330" y="1615" as="sourcePoint" />
+            <mxPoint x="1720" y="1615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-255" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=top;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;gradientColor=none;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Login&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="1450" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-256" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="390" x="1330" y="1750" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-257" edge="1" parent="eJ9iBsKxBpa-CTFYAeDR-256" style="endArrow=classic;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=1;fillColor=#cdeb8b;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="60" as="sourcePoint" />
+            <mxPoint y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-258" parent="eJ9iBsKxBpa-CTFYAeDR-256" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=top;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;gradientColor=none;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Token&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="130" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-259" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="920" x="1330" y="1960" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-260" edge="1" parent="eJ9iBsKxBpa-CTFYAeDR-259" style="endArrow=classic;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=1;fillColor=#cdeb8b;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="919.9999999999999" y="60" as="sourcePoint" />
+            <mxPoint y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-261" parent="eJ9iBsKxBpa-CTFYAeDR-259" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=top;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;gradientColor=none;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;employee`s vacation requests list&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="419.1111111111111" x="260" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-262" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="55" width="920" x="1330" y="1860" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-263" edge="1" parent="eJ9iBsKxBpa-CTFYAeDR-262" style="endArrow=classic;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=0;fillColor=#cdeb8b;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.4308" as="geometry">
+            <Array as="points">
+              <mxPoint x="424.61538461538464" y="55" />
+            </Array>
+            <mxPoint y="55" as="sourcePoint" />
+            <mxPoint x="920" y="55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-264" parent="eJ9iBsKxBpa-CTFYAeDR-262" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=top;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;gradientColor=none;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Get employee`s vacation requests&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="390" x="270" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-265" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="55" width="910" x="1340" y="2060" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-266" edge="1" parent="eJ9iBsKxBpa-CTFYAeDR-265" style="endArrow=classic;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=0;fillColor=#cdeb8b;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.4308" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="55" />
+            </Array>
+            <mxPoint y="55" as="sourcePoint" />
+            <mxPoint x="910.0000000000001" y="55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-267" parent="eJ9iBsKxBpa-CTFYAeDR-265" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=top;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;gradientColor=none;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Approve or disapprove a vacation request&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="460" x="240" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-268" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="270" x="1710" y="1670" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-269" parent="eJ9iBsKxBpa-CTFYAeDR-268" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;fillColor=#cdeb8b;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="90" width="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-270" parent="eJ9iBsKxBpa-CTFYAeDR-268" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=top;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;gradientColor=none;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Authenntication&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="175" x="95" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-271" edge="1" parent="eJ9iBsKxBpa-CTFYAeDR-268" source="eJ9iBsKxBpa-CTFYAeDR-269" style="curved=1;curveGeometry=1;endArrow=classic;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;fillColor=#cdeb8b;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="eJ9iBsKxBpa-CTFYAeDR-269" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.4681" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="10" />
+              <mxPoint x="80" y="60" />
+            </Array>
+            <mxPoint x="290" y="120" as="sourcePoint" />
+            <mxPoint x="50" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-272" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="450" x="2230" y="2160" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-273" parent="eJ9iBsKxBpa-CTFYAeDR-272" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;fillColor=#cdeb8b;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="90" width="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-274" parent="eJ9iBsKxBpa-CTFYAeDR-272" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=top;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;gradientColor=none;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Update the vacation request status in db&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="355" x="95" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-275" edge="1" parent="eJ9iBsKxBpa-CTFYAeDR-272" source="eJ9iBsKxBpa-CTFYAeDR-273" style="curved=1;curveGeometry=1;endArrow=classic;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;fillColor=#cdeb8b;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="eJ9iBsKxBpa-CTFYAeDR-273" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.4681" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="10" />
+              <mxPoint x="80" y="60" />
+            </Array>
+            <mxPoint x="290" y="120" as="sourcePoint" />
+            <mxPoint x="50" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-276" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="910" x="1330" y="2250" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-277" edge="1" parent="eJ9iBsKxBpa-CTFYAeDR-276" style="endArrow=classic;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=1;fillColor=#cdeb8b;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="910" y="60" as="sourcePoint" />
+            <mxPoint y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-278" parent="eJ9iBsKxBpa-CTFYAeDR-276" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=top;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;gradientColor=none;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Success or failure&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="336.52" x="270" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-279" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="480" x="2250" y="2290" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-280" connectable="0" parent="eJ9iBsKxBpa-CTFYAeDR-279" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="480" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-281" edge="1" parent="eJ9iBsKxBpa-CTFYAeDR-280" style="endArrow=classic;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=0;fillColor=#cdeb8b;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.4308" as="geometry">
+            <Array as="points">
+              <mxPoint x="221.53846153846155" y="55" />
+            </Array>
+            <mxPoint y="55" as="sourcePoint" />
+            <mxPoint x="480.0000000000001" y="55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-282" parent="eJ9iBsKxBpa-CTFYAeDR-280" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=top;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;gradientColor=none;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Send approved or disapproved email to employee&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="345" x="67.5" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-283" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="140" width="425" x="2720" y="2310" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-284" connectable="0" parent="eJ9iBsKxBpa-CTFYAeDR-283" style="group" value="" vertex="1">
+          <mxGeometry height="105" width="410" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-285" edge="1" parent="eJ9iBsKxBpa-CTFYAeDR-284" style="endArrow=classic;html=1;rounded=1;strokeColor=#36393d;strokeWidth=3;align=left;verticalAlign=middle;spacing=8;fontFamily=Comic Sans MS;fontSize=16;fontColor=default;fontStyle=0;labelBorderColor=none;labelBackgroundColor=default;curved=0;fillColor=#cdeb8b;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.4308" as="geometry">
+            <Array as="points">
+              <mxPoint x="189.23076923076923" y="96.25" />
+            </Array>
+            <mxPoint y="96.25" as="sourcePoint" />
+            <mxPoint x="410.00000000000006" y="96.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJ9iBsKxBpa-CTFYAeDR-286" parent="eJ9iBsKxBpa-CTFYAeDR-284" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=top;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;gradientColor=none;" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Send approved or disapproved email to employee&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="345" x="32.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
